@@ -1,0 +1,42 @@
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica;
+    font-size: 20px;
+    text-align: center;
+}
+
+li {
+    float: left;
+}
+
+li a:hover:not(.active){
+    background-color: #5ea5b4;
+
+}
+
+li a.active{
+    background-color: #e68387;
+    font-weight: 600;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #6DB1BF;
+    overflow: hidden;
+    position: sticky;
+}
+  
+
+div {
+    height: 500px;
+    padding: 1px 10px;
+}
+
+h2, p {
+    font-family: Helvetica;
+}

@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(255, 246, 220);
+}
+
+* {
+    font-style: italic;
+}
+
+h1, h4 {
+    color: #55828B;
+    background-color: #C9E4CA;
+}
+
+#textcolor {
+    color: #037692;
+    font-weight: 500;
+}
+
+.textclass {
+    color:#364958;
+    font-weight: 500;
+}
+
+
+section h4 {
+    background-color: #80A4ED;
+    color: white;
+}
+section.firstsec p:hover {
+    color: #55828B;
+    background-color: #BCD3F2;
+}
+
+a[href="#"] {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+article, footer {
+    text-align: center;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-family: Helvetica;
+    font-size: 20px;
+    text-align: center;
+}
+
+li {
+    float: left;
+}
+
+li a:hover:not(.active){
+    background-color: #5ea5b4;
+    color: white;
+
+}
+
+li a.active{
+    background-color: #e68387;
+    font-weight: 600;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #6DB1BF;
+    overflow: hidden;
+    position: sticky;
+}
+  
+
+div {
+    height: 500px;
+    padding: 1px 10px;
+}
+
+h2, p {
+    font-family: Helvetica;
+}
+  
